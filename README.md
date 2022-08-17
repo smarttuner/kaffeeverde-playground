@@ -10,7 +10,7 @@ This is the same app described inside the Jetpack Compose Codelab available here
 
 This app has been ported on other platform in order to test some of KaffeeVerde libraries (navigation-*).
 
-## Pre-requisite
+## Prerequisites
 
 This project uses a set of libraries that are not available through popular artifacts repositories.
 
