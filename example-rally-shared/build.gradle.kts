@@ -54,7 +54,7 @@ kotlin {
                     implementation(animation)
                     implementation(materialIconsExtended)
                 }
-                api(Deps.KaffeeVerde.NavigationCompose)
+                api(Deps.KaffeeVerde.ApplicationSupport)
             }
 
 

@@ -11,7 +11,7 @@ const val KOMPASS_LIB_GROUP = "net.smarttuner.kompass"
 object Versions {
     const val KOMPASS_LIB_VERSION = "0.0.1"
 
-    const val KAFFEEVERDE_NAVIGATION_COMPOSE = "0.0.8"
+    const val KAFFEEVERDE_APPLICATION_SUPPORT = "0.0.8"
 
     const val ANDROID_MIN_SDK = 24
     const val ANDROID_TARGET_SDK = 32
@@ -65,7 +65,7 @@ object Deps {
         const val Material = "com.google.android.material:material:${Versions.MATERIAL}"
     }
     object KaffeeVerde {
-        const val NavigationCompose = "net.smarttuner.kaffeeverde:application-support:${Versions.KAFFEEVERDE_NAVIGATION_COMPOSE}"
+        const val ApplicationSupport = "net.smarttuner.kaffeeverde:application-support:${Versions.KAFFEEVERDE_APPLICATION_SUPPORT}"
     }
 
     object AndroidXPlatform{

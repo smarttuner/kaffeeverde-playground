@@ -17,9 +17,9 @@ dependencyResolutionManagement {
 
     }
 }
-rootProject.name = "KaffeeVerde Playground"
+rootProject.name = "Rally"
 
+include(":example-rally-shared")
 include(":example-rally-android")
 include(":example-rally-desktop-jvm")
 include(":example-rally-ios")
-include(":example-rally-shared")
