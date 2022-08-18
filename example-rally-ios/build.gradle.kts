@@ -83,9 +83,9 @@ compose.experimental {
         bundleIdPrefix = "com.example.rally"
         projectName = "Rally"
         deployConfigurations {
-            simulator("IPhone7") {
+            simulator("IPhone") {
                 //Usage: ./gradlew iosDeployIPhone8Debug
-                device = IOSDevices.IPHONE_7
+                device = IOSDevices.IPHONE_8
             }
             simulator("IPad") {
                 //Usage: ./gradlew iosDeployIPadDebug
