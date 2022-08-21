@@ -47,9 +47,9 @@ fun main() {
         }
 
         LaunchedEffect(Unit){
-            lifecycleHolder._lifecycle.currentState = Lifecycle.State.CREATED
-            lifecycleHolder._lifecycle.currentState = Lifecycle.State.STARTED
-            lifecycleHolder._lifecycle.currentState = Lifecycle.State.RESUMED
+            lifecycleHolder.lifecycle.currentState = Lifecycle.State.CREATED
+            lifecycleHolder.lifecycle.currentState = Lifecycle.State.STARTED
+            lifecycleHolder.lifecycle.currentState = Lifecycle.State.RESUMED
         }
 
     }

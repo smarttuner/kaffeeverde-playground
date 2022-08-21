@@ -11,7 +11,7 @@ const val KOMPASS_LIB_GROUP = "net.smarttuner.kompass"
 object Versions {
     const val KOMPASS_LIB_VERSION = "0.0.1"
 
-    const val KAFFEEVERDE_APPLICATION_SUPPORT = "0.0.8"
+    const val KAFFEEVERDE_APPLICATION_SUPPORT = "0.0.9"
 
     const val ANDROID_MIN_SDK = 24
     const val ANDROID_TARGET_SDK = 32
@@ -38,10 +38,10 @@ object Versions {
     const val ANDROID_X_CORE= "1.7.0"
     const val ANDROID_X_ACTIVITY= "1.4.0"
 
-    const val coroutines = "1.6.4"
-    const val coroutines_android = "1.6.4"
-    const val coroutines_swing = "1.6.4"
-    const val coroutines_core = "1.6.4"
+    const val COROUTINES = "1.6.4"
+    const val COROUTINES_CORE = "1.6.4"
+    const val COROUTINES_ANDROID = "1.6.4"
+    const val COROUTINES_SWING = "1.6.4"
 
 }
 
@@ -91,9 +91,9 @@ object Deps {
     }
 
     object Coroutines {
-        const val common = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines_core}"
-        const val android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines_android}"
-        const val swing = "org.jetbrains.kotlinx:kotlinx-coroutines-swing:${Versions.coroutines_swing}"
-        const val test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutines}"
+        const val common = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.COROUTINES_CORE}"
+        const val android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.COROUTINES_ANDROID}"
+        const val swing = "org.jetbrains.kotlinx:kotlinx-coroutines-swing:${Versions.COROUTINES_SWING}"
+        const val test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.COROUTINES}"
     }
 }
