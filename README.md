@@ -29,7 +29,7 @@ Use these commands in order to build and run this app:
   * Hit "Enter"
 * as an iOS app (KMP via Kotlin/Native, alpha):
   * Open a terminal and go to the root path of this project
-  * Type `./gradlew iosDeployIPhone7Debug`
+  * Type `./gradlew iosDeployIPhoneDebug`
   * Hit "Enter"
 
 
